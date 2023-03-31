@@ -1,21 +1,15 @@
 package Ex01;
 
 import java.io.*;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import Ex01.CamelCase;
-
 import java.io.File;
-
-import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
+
 public class main 
 {
 
