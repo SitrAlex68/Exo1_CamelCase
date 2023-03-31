@@ -7,9 +7,7 @@ public class CamelCase {
 		for(int i = 0 ; i < n; i++)
 		{
 			if(reponse.length() > 0)
-			{
 				reponse += "";
-			}
 			
 			reponse += Character.toUpperCase(tab[i].charAt(0));
 			for(int j = 1; j < tab[i].length(); j++)
@@ -22,9 +20,7 @@ public class CamelCase {
 					j++;
 				}
 				else
-				{
 					reponse += Character.toLowerCase(tab[i].charAt(j));
-				}
 			}
 		}
 		return reponse;
